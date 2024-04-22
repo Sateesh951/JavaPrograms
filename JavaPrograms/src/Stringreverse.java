@@ -8,12 +8,9 @@ public class Stringreverse {
 		
 		String src="";
 		
-	
-		
 		for(int i=str.length()-1;i>=0;i--) {
 			
 			src= src+str.charAt(i);
-		
 		}
 		System.out.println(src);
 	}
